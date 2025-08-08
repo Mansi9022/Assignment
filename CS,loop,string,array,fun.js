@@ -1,7 +1,6 @@
 // ===============Control Structure==============
 
 // 1]  Check if a number is positive or negative.
-
 // let num = prompt("Enter a number");
 // if(num >= 0 ){
 //     console.log('number is positive');
@@ -11,7 +10,6 @@
 
 
 // 2] Check if a number is even or odd.
-
 // let num = prompt("Enter a number");
 // if(num%2==0){
 //     console.log("number is even");
@@ -21,7 +19,6 @@
 
 
 // 3] Check if a person is eligible to vote (age >= 18).
-
 // let age = prompt("Enter your age");
 // if(age>=18){
 //     console.log("Your eligible for vote");
@@ -31,7 +28,6 @@
 
 
 // 4] Find the greatest of two numbers.
-
 // let num1 = 20;
 // let num2 = 24;
 // if(num1 > num2){
@@ -44,11 +40,9 @@
 
 
 // 5] Find the greatest of three numbers.
-
 //  let num1 = 24;
 //  let num2 = 19;
-//  let num3 = 35;
- 
+//  let num3 = 35; 
 // if(num1 >= num2 && num1 >= num3){
 //        console.log("greatest num is",num1);
 //  } else if(num2>=num1&&num2>=num3){
@@ -59,7 +53,6 @@
 
 
 // 6] Check if a year is a leap year or not.
-
 // let year = prompt("Enter year");
 // if(year % 4=== 0 || year % 400 === 0 ){
 //     console.log("It's a leap year.");
@@ -70,7 +63,6 @@
 
 
 // 7] Check whether a character is a vowel or consonant.
-
 // let char= prompt("Enter a character");
 // if (char == 'a' || char == 'e' || char == 'i' || char == 'o' || char == 'u') {
 //     console.log("char is vowel:",char);
@@ -81,7 +73,6 @@
 
 
 // 8] Assign grades based on marks (A, B, C, F).
-
 //  let marks = 80;
 //  if (marks>=90){
 //      console.log(" you got 'A' grade:",marks);
@@ -95,8 +86,8 @@
 //     console.log("you are failed:",marks);
 //  }
 
-// 9]  Check if a number is divisible by 5 and 11
 
+// 9]  Check if a number is divisible by 5 and 11
 // let num = prompt("Enter a number");
 // if (num%5===0){
 //     if(num%11===0){
@@ -114,22 +105,23 @@
 
 
 // 10] . Use ternary operator to check if a number is even or odd.
-
 // let num = prompt("Enter a number");
 // let res = (num%2===0)? "number is even":"number is odd";
 // console.log(res);
 
-// =============== Loop Questions (for / while)=============
+
+
+// =============== Loop Questions (for / while)============
+
+
 
 // 1] Print numbers from 1 to 10.
-
 // for(let i = 1;i<=10;i++){
 //     console.log(i);
 // }
 
 
 // 2] Print the sum of numbers from 1 to 100.
-
 // let sum = 0;
 // for(let i = 1;i<=100;i++){
 //     sum += i;
@@ -138,7 +130,6 @@
 
 
 // 3] Print even numbers between 1 and 50.
-
 // for(let i = 0;i<=50;i++){
 //     if (i%2==0) {
 //         console.log(i);
@@ -146,7 +137,6 @@
 // }
 
 // 4]  Print the multiplication table of a number (e.g., 7).
-
 //  let n = 17;
 //  for(let i=1;i<=10;i++){
 //      console.log(`${n*i}`);
@@ -154,13 +144,12 @@
 
 
 // 5]  Print reverse numbers from 10 to 1.
-
 // for(let i =10;i>=1;i--){
 //     console.log(i);    
 // }
 
-// 6] Find the factorial of a number.
 
+// 6] Find the factorial of a number.
 // let number = prompt("Enter a number");
 // let factorial = 1;
 // for (let i = 1; i <= number; i++) {
@@ -170,7 +159,6 @@
 
 
 // 7] Reverse a given number.
-
 // let reverse = 0;
 // let num = 12;
 // while (num !== 0) {
@@ -182,7 +170,6 @@
 
 
 // 8]  Check if a number is a palindrome.
-
 // let num = 121;
 // let reverse = 0;
 // let orignal =num ;
@@ -199,7 +186,6 @@
 
 
 // 9] Find the sum of digits of a number.
-
 // let num = 1234; 
 // let sum = 0;
 // while (num > 0) {
@@ -211,7 +197,6 @@
 
 
 // 10]Print Fibonacci series up to N terms
-
 // let N = 10; 
 // let a = 0, b = 1, nextTerm;
 // console.log("Fibonacci Series:");
@@ -225,71 +210,55 @@
 
 // =============== String Questions Using String Methods =============
 
-// Q1. Take a string input and convert it to uppercase using a string method.
 
+// Q1. Take a string input and convert it to uppercase using a string method.
 // let str = 'GeeksforGeeks';
 // console.log(str.toUpperCase());
 
-//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Q2. Take a string input and convert it to lowercase using a string method.
-
 // let str = 'GeeksforGeeks';
 // console.log(str.toLowerCase());
 
-//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Q3.Ask the user for a string and print its length using a method.
-
 // let myString = "Hello, world!";
 // let lengthOfString = myString.length;
 // console.log(lengthOfString); 
 
-//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Q5.Take a string input and check if it ends with a particular word using endswith().
-
 // let str = 'Geeks for Geeks';
 // let wordtocheck = 's';
 // console.log(str.endsWith(wordtocheck));
 
-//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Q6. Input a string and check whether it starts with a specific word using startswith().
-
 // let str = 'Geeks for Geeks';
 // let wordtocheck = 'G';
 // console.log(str.endsWith(wordtocheck));
 
-//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Q7. Ask the user to input a string and remove leading and trailing spaces using strip().
-
 // let str = prompt("Enter a word");
 // let newStr = str.trim();
 // console.log(newStr);
 
-//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Q8. Take a string and replace all spaces with hyphens (-) using replace().
-
 //  let str = ' GeeksforGeeks';
 //  let newStr = str.replace('','-');
 //  console.log(newStr);
 
-//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Q9. Ask the user to input their name and print each character on a new line using a loop.
-
 //   let str = prompt("Enter your name") ;
 //   for(let i = 0;i <str.length; i++){
 //      console.log(str[i]);
 //   }
 
-//-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 // Q10. Take a string input and split it into a list of words using split()
-
 // let str = "Geeks-for-Geeks";
 // console.log(str.split('-'));
 
@@ -365,7 +334,9 @@
 // }
 // console.log(largest);
 
+
 // ===============  Function Programming Questions =============
+
 
 //  1. Create a function to print 'Hello, World!'.
 // function hi(){
@@ -385,9 +356,12 @@
 
 
 //  3. Create a function that checks if a number is even or odd.
-// // function num(a){
-//     let res = (a % 2 == 0)? 'even':'odd';
-//     console.log(res);
+// function num(a){
+//     if(a%2==0){
+//         console.log("the number is even");
+//     }else{
+//         console.log("the number is odd");
+//     }
 // }
 // num(4);
 
@@ -398,6 +372,7 @@
 //    console.log(res);
 // }
 // square(8);
+
 
 //  5. Create a function that takes a name as input and prints a greeting message.
 // function hi(){
@@ -421,13 +396,13 @@
 
 
 //  7. Create a function to calculate the factorial of a number.
+// let number =Number(prompt("Enter a number"));
 // function factorial(){
-// let number = prompt("Enter a number");
 // let factorial = 1;
 // for (let i = 1; i <= number; i++) {
-//     factorial *= i;
-//     console.log(`The factorial of ${number} is ${factorial}.`);
-// }
+//     factorial *= i; 
+//     console.log(`The factorial of ${number} is ${factorial}.`);   
+//     }
 // }
 // factorial();
 
@@ -441,18 +416,35 @@
 
 
 //  9. Create a function to check if a number is prime.
-// 
+// let num = prompt("Enter a number");
+// let count = 0;
+// for(i = 1;i<=num;i++){
+//     if(num%i==0){
+//         count++;
+//     }   
+// }
+//  if(count==2){
+//     console.log("the number is prime");
+//  }else{
+//     console.log("the num is not prime");
+//  }
+
+// function prime(){
+// let num = prompt("Enter a number");
+// let count = 0;
+//     for(i = 1;i<=num;i++){
+//     if(num%i==0){
+//         count++;
+//     }   
+// }
+//  if(count==2){
+//     console.log("the number is prime");
+//  }else{
+//     console.log("the num is not prime");
+//  }
+// }
+// prime();
 
 
 //  10. Create a function that counts the number of vowels in a string
-// function countVowels(str) {
-//   const vowels = "aeiouAEIOU";
-//   let count = 0;
-//   for (let char of str) {
-//     if (vowels.includes(char)) {
-//       count++;
-//     }
-//   }
-//   console.log(count);
-// }
-// countVowels("tiger");
+
